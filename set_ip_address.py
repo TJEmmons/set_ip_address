@@ -13,3 +13,4 @@ subprocess.run(["ifconfig", interface_name, ip_address, "netmask", subnet_mask])
 
 # Set the default gateway
 subprocess.run(["route", "add", "default", "gw", default_gateway, interface_name])
+ 
